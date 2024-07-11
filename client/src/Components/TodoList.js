@@ -31,7 +31,7 @@ function TodoList() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/todos/`)
+      .get(`https://todolist-mern-9zym.onrender.com/todos/`)
       .then((res) => {
         res.data.map(() => {
           setTodoList(res.data);
