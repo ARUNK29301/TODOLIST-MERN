@@ -15,6 +15,10 @@ app.use((req, res, next) => {
     next();
 });
 
+// Define routes
+app.get('/', (req, res) => {
+    res.send("Server is Running");
+});
 app.use(crudRoutes);
 
 app.use((error, req, res, next) => {
