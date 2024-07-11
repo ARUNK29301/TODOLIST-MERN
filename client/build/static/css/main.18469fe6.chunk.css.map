@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,KACE,YACF,CAEA,MACE,kBAAmB,CACnB,YAAa,CACb,cAAe,CACf,6BACF","file":"main.18469fe6.chunk.css","sourcesContent":[".app {\n  padding: 30px;\n}\n\n.todo {\n  align-items: center;\n  display: flex;\n  font-size: 18px;\n  justify-content: space-between;\n}\n"]}
