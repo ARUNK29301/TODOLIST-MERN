@@ -3,7 +3,7 @@ import axios from "axios";
 
 export default (initialTodos) => {
   const [todoList, setTodoList] = useState(initialTodos);
-  const URL = "http://localhost:5000"
+  const URL = "https://todolist-mern-9zym.onrender.com"
 
   return {
     todoList,
